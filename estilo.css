@@ -1,16 +1,21 @@
-
-*{
+* {
     scroll-behavior: smooth;
 }
 
 body {
-    
-     background-image: url("img/backgorund/backgroundescuro.png");
+
+    background-image: url("img/backgorund/backgroundescuro.png");
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     background-size: 100%;
+}
+
+
+
+.links {
+    text-decoration: none;
 }
 
 .topo {
@@ -24,16 +29,19 @@ body {
 }
 
 a {
-    color: rgb(255, 255, 255); /* Muda a cor de todos os links */
-  }
+    color: rgb(255, 255, 255);
+    /* Muda a cor de todos os links */
+}
 
-.logo {
+.logo img{
     margin: 30px;
-    
+    width: 40px;
+    height: auto;
+
 
 }
 
-.topo img {
+.hiperlink img {
     width: 30px;
     /* Ajuste a largura conforme desejado */
     height: auto;
@@ -53,12 +61,12 @@ a {
 }
 
 .container-texto {
-    text-align:center;
+    text-align: center;
     background-color: rgba(237, 0, 98, 1);
     margin-top: 20px;
     margin-bottom: 20px;
     color: aliceblue;
-    
+
 }
 
 .titulo1 {
@@ -77,7 +85,7 @@ a {
 
 .produtos {
     width: 369px;
-   
+
 }
 
 .mostruario {
@@ -99,28 +107,28 @@ a {
     height: 400px;
 }
 
-.formulario{
-    
+.formulario {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
 
-    
+
+
 }
 
 .linha {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px;
 
-    
+
 }
 
 .linha2 {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,31 +136,31 @@ a {
     margin: 60px;
     row-gap: 50px;
 
-    
+
 }
 
 .linha3 {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .linha4 {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .linha5 {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 60px;
 
-    
+
 }
 
 .coluna {
@@ -169,9 +177,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width:60%;
+    width: 60%;
     flex-wrap: wrap;
-    
+
 }
 
 .galeria {
@@ -200,15 +208,5 @@ a {
         0 0 92px #0fa,
         0 0 102px #0fa,
         0 0 151px #0fa;
-        
-}
 
-#objeto-movel {
-    position: absolute; /* Posiciona o objeto de forma absoluta */
-    top: 50px; /* Ajusta o topo do objeto */
-    left: 50px; /* Ajusta a esquerda do objeto */
-    width: 100px; /* Define a largura do objeto */
-    height: 100px; /* Define a altura do objeto */
-    background-color: #ccc; /* Define a cor de fundo */
-    cursor: move; /* Define o cursor como "mover" */
 }

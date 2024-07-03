@@ -62,8 +62,8 @@ a {
 }
 
 .titulo1 {
-    text-align: start;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 50px;
     margin-bottom: 20px;
     color: aliceblue;
 }
@@ -77,12 +77,11 @@ a {
 
 .produtos {
     width: 369px;
-    border: ;
+   
 }
 
 .mostruario {
     width: 369px;
-    border: ;
     display: flex;
 
 }
@@ -101,7 +100,7 @@ a {
 }
 
 .formulario{
-    background: ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +110,7 @@ a {
 }
 
 .linha {
-    background: ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,21 +132,21 @@ a {
 }
 
 .linha3 {
-    background: ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .linha4 {
-    background: ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .linha5 {
-    background: ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,8 +157,8 @@ a {
 
 .coluna {
     background: rgb(255, 255, 255);
-    width: 33.33%;
-    min-height: 300px;
+    width: 20%;
+    min-height: 650px;
 }
 
 
@@ -169,7 +168,10 @@ a {
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width:60%;
+    flex-wrap: wrap;
+    
 }
 
 .galeria {
@@ -187,15 +189,26 @@ a {
 }
 
 .texto-formatado {
-    font-size: 50px;
+    font-size: 100px;
     color: #fff;
     text-shadow:
+        0 0 2px #fff,
         0 0 7px #fff,
         0 0 10px #fff,
-        0 0 21px #fff,
         0 0 42px #0fa,
         0 0 82px #0fa,
         0 0 92px #0fa,
         0 0 102px #0fa,
         0 0 151px #0fa;
+        
+}
+
+#objeto-movel {
+    position: absolute; /* Posiciona o objeto de forma absoluta */
+    top: 50px; /* Ajusta o topo do objeto */
+    left: 50px; /* Ajusta a esquerda do objeto */
+    width: 100px; /* Define a largura do objeto */
+    height: 100px; /* Define a altura do objeto */
+    background-color: #ccc; /* Define a cor de fundo */
+    cursor: move; /* Define o cursor como "mover" */
 }

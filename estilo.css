@@ -41,6 +41,11 @@ a {
 
 }
 
+.imagem-logo{
+width: 70px;
+margin: 30px;
+}
+
 .hiperlink img {
     width: 30px;
     /* Ajuste a largura conforme desejado */
